@@ -1,0 +1,18 @@
+---
+layout: default
+---
+	<article id="main">
+		<header>
+			<h2>{{ page.title }}</h2>
+			{% if page.meta %}<p>{{ page.meta }}</p>{% endif %}
+		</header>
+		<section class="wrapper style5">
+			<div class="inner">
+				<header>
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
+				</header>
+{{ content }}
+			</div>
+		</section>
+	</article>

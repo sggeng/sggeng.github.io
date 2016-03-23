@@ -1,0 +1,46 @@
+<script>
+(function($){ 
+
+  var confirmation = $("#confirmation"),
+      spinner = $("#spinner"),
+      contact = $("#contact"),
+      result = $("#result"),
+      sendMessage = $("#sendMessage"),
+      resetMessage = $("#resetMessage"),
+      $form = $("#contactform"),
+      url = $form.attr("action");
+   
+  confirmation.hide();
+  spinner.hide();
+   
+  contact.submit(function( event ) {
+
+    event.preventDefault();
+    
+	  if (!$("#name").val() || !$("#email").val() || !$("#message").val()) {
+      alert('Please complete all the fields before sending the message.');
+      return;
+    }
+    
+    spinner.show();
+    sendMessage.attr('disabled','disabled');
+    resetMessage.attr('disabled','disabled');
+
+    $.post(url, $form.serialize(), function(data)
+    {
+        result.empty().append( data.message );
+        contact.hide();
+        spinner.hide();
+        confirmation.show();
+    }).fail(function(e) {
+      
+      alert('A error has ocurred. Please try again.');
+      
+      spinner.hide();
+      sendMessage.removeAttr('disabled');
+      resetMessage.removeAttr('disabled');
+    });
+    
+  });
+})(jQuery);
+</script>

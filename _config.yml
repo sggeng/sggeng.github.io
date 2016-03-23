@@ -1,2 +1,17 @@
-name: Sherman Geng
+# Site settings
+title: Chris Wray
+email: chris@lightwrays.com
+description: > # this means to ignore newlines until "baseurl:"
+  Chris Wray, a Software Architect and Engineer with over 17 years of software development experience
+  building great technology solutions for many high profile companies.
+permalink: /:categories/:title/
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lightwrays.com" # the base hostname & protocol for your site
+url_domain: lightwrays.com
+twitter_username: lightwrays
+github_username:  lightwrays
+instagram_username: lightwrays
+linkedin_username: chriswray
+
+# Build settings
 markdown: kramdown
