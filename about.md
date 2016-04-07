@@ -1,1 +1,15 @@
----layout: pagetitle: About Memeta: "Some details about me, for those who are curious."permalink: /about/---## Who is Sherman GengSimply, I'm a Software Architect and Engineer with over 115 years of software development experience building solutions in the San Francisco bay area.After graduating from the [Wayne State University](http://www.wayne.edu/), I've had great opportunities building software solutions for various industries and domains. I've worked in a few medical device company building instrument control and diagnostic software. I've built and implemented acquisition and diagnostics software leveraging Microsoft Prism technology to provide generic software platform support various device families. I've architected and developed next generation image acquisition and analysis software to handle high speed image acquisition and real time analysis.Currently, I am working at [Upthere](http://upthere.com) and building the next generation cloud OS using the latest technologies and practices.While I'm not at my workstation creating things, you'll likely find me hanging out with my family in the bay area, skiing, listening to great music, cooking and eating tasty things, all while documenting everything with my trusty iPhone camera.
+---
+layout: page
+title: About Me
+meta: "Some details about me, for those who are curious."
+permalink: /about/
+---
+## Who is Chris Wray
+
+Simply, I'm a Software Architect and Engineer with over 17 years of software development experience building solutions in the greater Seattle area.
+
+After graduating from the [University of Washington](http://www.washington.edu/), I've had great opportunities building software solutions for various industries and domains. I've worked in a few design agencies building custom software and high scale E-Commerce Websites for high profile clients. I've built and implemented Warehouse Management software leveraging wireless devices and barcode solutions to automate inventory management. I've architected and developed custom Enterprise Software for a Law Firm which spanned multiple offices across States from Alaska to Hawaii, and scaled out the solution to thousands of concurrent users. I was the architect working on a large Online Multiplayer Game, and part of the vision for the next version of the distributed and scalable platform. I've had the opportunity to create some exciting solutions (and learn a number of things along the way).
+
+Currently, I am working at [Vertigo](http://vertigo.com) and building amazing mobile and video solutions for high profile clients using the latest technologies and practices.
+
+While I'm not at my workstation creating things, you'll likely find me hanging out with my family in the greater Seattle area, snowboarding, listening to great music, cooking and eating tasty things, all while documenting everything with my trusty iPhone camera.
